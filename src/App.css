@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.verticalLine {
+  border-right: 5px solid black;
+}
+.footer {
+  position:absolute;
+  width: 100%;
+}
+
+.upload-container {
+  text-align: center;
+}
+/* Add product */
+.addProductContainer {
+  width: 400px;
+  height: auto;
+  border: 5px solid black;
+}
+/* end Add product */
+
+/* Profile */
+.profile {
+  background-color: #ffffec;
+  width: max-content;
+  height: max-content;
+  border-radius: 2%;
+}
+.profileContainer {
+  background-color:  #f1e4c3;
+  max-width: 100%;
+  height: 100vh;
+  border-radius: 2%;
+}
+/* End of Profile */
+
+/* Product View for both user and admin */
+.productView {
+  background-color: #f1e4c3;
+}
+/* end Product View for both user and admin */
+
+/* product view when buying */
+.productViewTextTitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: Bold;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.boldText {
+  font-style: Bold;
+  font-weight: bold;
+}
+/* end product view when buying */
+
+.upload-placeholder {
+  position: relative;
+  display: inline-block;
+}
+
+.empty-frame {
+  width: 250px;
+  height: 200px;
+  border: 2px dashed #ddd;
+  font-size: 14px;
+  color: #777;
+}
+
+.upload-btn-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: 250px;
+  height: auto;
+}
+.admin-view-container {
+  width: 100%;
+}
+
+.admin-view-table {
+  width: 100%;
+}
+
+.featuredProductHighlights {
+  background-color: #ffffec;
+  justify-content: center;
+}
+
+/* Footer */
+.hr {
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: 3px;
+  background: #333;
+  margin: 10px 0;
+}
+
+.textFooter {
+  font-size: x-small;
+}
+
+.footerHs {
+  font-size: small;
+}
+.footerBackgroundColor {
+  background-color:#f1e4c3;
+}
+/* End Footer */
+
+/* Preview Product */
+.cardHighlight {
+  min-height: 100%;
+  background-color: #ffffec;
+  margin-top: 10px;
+}
+/* end Preview Product */
+
+.highLights {
+  background-color: #f1e4c3;
+}
+
+/* Highlight Background */
+
+/* Banner */
+.bannerStyle {
+  background: url(Images/langdingPage.png) center/cover no-repeat;
+  background-size: fill;
+  max-width: 100%;
+  overflow: hidden;
+  color: #f1e4c3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 83vh;
+}
+
+.welcomeShoppers {
+  font-size: 10vw;
+  font-family: "Pacifico", cursive;
+  font-style: italic;
+}
+
+.shopBuyEnjoy {
+  font-size: 2vw;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.bannerButton {
+  border: #777;
+  border-color: blue;
+  color: rgb(54, 206, 173);
+}
+
+.textContainerStyle2 {
+  color: #f1e4c3;
+  font-style: italic;
+  font-weight: "500";
+  font-size: 2rem;
+}
+.featuredProductStyle {
+  width: "100%";
+}
+/* End of Banner */
